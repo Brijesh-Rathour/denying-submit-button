@@ -1,0 +1,49 @@
+body{
+    background-color: blueviolet;
+}
+.container{
+    width: 25%;
+    background-color: azure;
+    padding: 2 3;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 1;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: brown;
+}
+input, #submit{
+    border: none;
+    outline: none;
+    display: block;
+}
+input{
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 2em;
+    font-size: 20px;
+    padding: 1em 0 0.5em 0.5em;
+    border-bottom: 2px solid black;
+}
+#submit{
+    position: relative;
+    left: 0;
+    font-size: 1.2em;
+    width: 7em;
+    background-color: aqua;
+    color: white;
+    padding: 0.8em 0;
+    margin-top: 2em;
+    border-radius: 0.5em;    
+}
+#message-ref{
+    font-size: 1em;
+    visibility: hidden;
+    margin-top: 1.5em;
+    color: blue;
+}
